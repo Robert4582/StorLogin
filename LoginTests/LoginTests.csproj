@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StorLogin\Login.csproj" />
+    <ProjectReference Include="..\Login.csproj" />
   </ItemGroup>
 
 </Project>
