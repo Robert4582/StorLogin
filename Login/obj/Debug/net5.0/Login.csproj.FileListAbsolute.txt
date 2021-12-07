@@ -1,0 +1,16 @@
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\bin\Debug\net5.0\Login.exe
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\bin\Debug\net5.0\Login.deps.json
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\bin\Debug\net5.0\Login.runtimeconfig.json
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\bin\Debug\net5.0\Login.runtimeconfig.dev.json
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\bin\Debug\net5.0\Login.dll
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\bin\Debug\net5.0\ref\Login.dll
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\bin\Debug\net5.0\Login.pdb
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\obj\Debug\net5.0\Login.csproj.AssemblyReference.cache
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\obj\Debug\net5.0\Login.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\obj\Debug\net5.0\Login.AssemblyInfoInputs.cache
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\obj\Debug\net5.0\Login.AssemblyInfo.cs
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\obj\Debug\net5.0\Login.csproj.CoreCompileInputs.cache
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\obj\Debug\net5.0\Login.dll
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\obj\Debug\net5.0\ref\Login.dll
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\obj\Debug\net5.0\Login.pdb
+C:\Users\kasp494b\Desktop\Store Systemer\StorLogin\Login\obj\Debug\net5.0\Login.genruntimeconfig.cache

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ri8sHtluZYOahpSpGLCv9lvqJ4EurkIJ5Bl4qneLpIPrOamA/a84YYx9ld3xk2E40NOxlVBBWTlAC4ewDhrIdg==",
+  "dgSpecHash": "icJ6AlzrE2jlJZfi+GFibwHplje5UZ6mWWcy0pL2i+GN8R/mGU0rkSszS8AsxdRMrU7v/nT9LVqmQcB+6cUMFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\LoginTests\\LoginTests.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,6 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\kasp494b\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.9.4\\microsoft.testplatform.objectmodel.16.9.4.nupkg.sha512",
     "C:\\Users\\kasp494b\\.nuget\\packages\\microsoft.testplatform.testhost\\16.9.4\\microsoft.testplatform.testhost.16.9.4.nupkg.sha512",
-    "C:\\Users\\kasp494b\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.3.0\\microsoft.win32.registry.4.3.0.nupkg.sha512",
     "C:\\Users\\kasp494b\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
