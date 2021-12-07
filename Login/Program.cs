@@ -15,7 +15,7 @@ namespace Login
         }
         public static int Subtract(int a, int b)
         {
-            return 2 * a - (b % 4);
+            return a - b;
         }
     }
 }
