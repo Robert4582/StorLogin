@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "e3DJUz3qufLz4Ak194Z5C+HtVYvCuoA3RYJO00MLIBW6z5ShoAeeWzKkjUnkWo42wUE4pUzsYEmU26cIPV6DhA==",
+  "dgSpecHash": "+s2tsJkuXHpxzJHC+oHBXzG+gdNpkggNYjb9/Ep38PWx/0nYdIvTsyf+DWpSU95scMOqyXz/Htl3uvKCWqiXOg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\Login\\Login.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kasp494b\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\kasp494b\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],
   "logs": []

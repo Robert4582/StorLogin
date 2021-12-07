@@ -5,10 +5,10 @@ WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["Login.csproj", "."]
-RUN dotnet restore "./Login.csproj"
+COPY ["Login/Login.csproj", "Login/"]
+RUN dotnet restore "Login/Login.csproj"
 COPY . .
-WORKDIR "/src/."
+WORKDIR "/src/Login"
 RUN dotnet build "Login.csproj" -c Release -o /app/build
 
 FROM build AS publish
