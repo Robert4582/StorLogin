@@ -53,4 +53,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: user/app:latest
+          tags: kalledk21/storlogin
