@@ -46,7 +46,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           username: kalledk21
-          password: ${{ secrets.DOKKERHUB_PASSWORDS }}
+          password: ${{ secrets.DOKKER_PASSWORD }}
       -
         name: Build and push
         uses: docker/build-push-action@v2
