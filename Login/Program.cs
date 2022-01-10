@@ -37,14 +37,18 @@ namespace Login
         {
             if (UserDatabase.TryGetUser(file.Info[0], file.Info[1], out User user))
             {
-                queue.RespondToRpc(file, new NetworkFile<string[]>(user.GetAsStrings()) { Service = Services.Response});
+                foreach (var item in user.GetAsStrings())
+                {
+                    Console.WriteLine(item);
+                }
+                queue.RespondToRpc(file, new NetworkFile<string[]>(user.GetAsStrings()) { Service = Services.Response}, true);
             }
         }
         public static void handleCreateUser(NetworkFile<string[]> file)
         {
             if (UserDatabase.TryCreateUser(file.Info[0], file.Info[1], file.Info[2], out User user))
             {
-                queue.RespondToRpc(file, new NetworkFile<string[]>(user.GetAsStrings()) { Service = Services.Response });
+                queue.RespondToRpc(file, new NetworkFile<string[]>(user.GetAsStrings()) { Service = Services.Response }, true);
             }
         }
 

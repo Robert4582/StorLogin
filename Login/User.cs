@@ -1,12 +1,19 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Login
 {
+    [Index(nameof(Username), nameof(Password))]
     public class User
     {
+        [Key]
         public Guid ID { get; private set; }
+        [Required]
         public string Username { get; private set; }
+        [Required]
         public string Password { get; private set; }
+        [Required]
         public string Nickname { get; private set; }
 
         public DateTime CreationDate { get; private set; }
@@ -14,18 +21,11 @@ namespace Login
 
         public int GamesPlayed { get; private set; }
 
-        /*
-        public User(string userName, string password)
+        public User(string username, string password, string nickname)
         {
-            Username = userName;
+            Username = username;
             Password = password;
-        }*/
-
-        public User(string userName, string password, string nickName)
-        {
-            Username = userName;
-            Password = password;
-            Nickname = nickName;
+            Nickname = nickname;
 
             ID = Guid.NewGuid();
             CreationDate = DateTime.Now;
@@ -33,12 +33,12 @@ namespace Login
             GamesPlayed = 0;
         }
 
-        public User(Guid iD, string userName, string password, string nickName, DateTime creationDate, DateTime lastLogin, int gamesPlayed)
+        public User(Guid iD, string username, string password, string nickname, DateTime creationDate, DateTime lastLogin, int gamesPlayed)
         {
             ID = iD;
-            Username = userName;
+            Username = username;
             Password = password;
-            Nickname = nickName;
+            Nickname = nickname;
             CreationDate = creationDate;
             LastLogin = lastLogin;
             GamesPlayed = gamesPlayed;
