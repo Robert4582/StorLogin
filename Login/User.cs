@@ -14,6 +14,13 @@ namespace Login
 
         public int GamesPlayed { get; private set; }
 
+        /*
+        public User(string userName, string password)
+        {
+            Username = userName;
+            Password = password;
+        }*/
+
         public User(string userName, string password, string nickName)
         {
             Username = userName;
