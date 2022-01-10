@@ -13,6 +13,8 @@ namespace Login
             queue.CreateExchange(RabbitMQExchangeTypes.Direct, "Stor");
             queue.BindServices("Stor", Services.Login, Services.Create);
             queue.AssignOnRecieve(OnReceive);
+
+            Console.Read();
         }
         static void OnReceive(BasicDeliverEventArgs args)
         {

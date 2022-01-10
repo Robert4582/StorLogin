@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\LoginTests\\LoginTests.csproj": {}
+    "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Login\\LoginTests\\LoginTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\LoginTests\\LoginTests.csproj": {
+    "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Login\\LoginTests\\LoginTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\LoginTests\\LoginTests.csproj",
+        "projectUniqueName": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Login\\LoginTests\\LoginTests.csproj",
         "projectName": "LoginTests",
-        "projectPath": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\LoginTests\\LoginTests.csproj",
-        "packagesPath": "C:\\Users\\kasp494b\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\LoginTests\\obj\\",
+        "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Login\\LoginTests\\LoginTests.csproj",
+        "packagesPath": "C:\\Users\\Robert-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Login\\LoginTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\kasp494b\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robert-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,15 +27,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gitlab.com/api/v4/projects/21192147/packages/nuget/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\Login\\Login.csproj": {
-                "projectPath": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\Login\\Login.csproj"
+              "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Login\\Login\\Login.csproj": {
+                "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Login\\Login\\Login.csproj"
               }
             }
           }
@@ -82,25 +81,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\Login\\Login.csproj": {
+    "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Login\\Login\\Login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\Login\\Login.csproj",
+        "projectUniqueName": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Login\\Login\\Login.csproj",
         "projectName": "Login",
-        "projectPath": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\Login\\Login.csproj",
-        "packagesPath": "C:\\Users\\kasp494b\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kasp494b\\Desktop\\Store Systemer\\StorLogin\\Login\\obj\\",
+        "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Login\\Login\\Login.csproj",
+        "packagesPath": "C:\\Users\\Robert-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Login\\Login\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\kasp494b\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robert-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -109,8 +108,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gitlab.com/api/v4/projects/21192147/packages/nuget/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -154,7 +152,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.13, 5.0.13]"
+              "version": "[5.0.12, 5.0.12]"
             }
           ],
           "frameworkReferences": {
@@ -162,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
