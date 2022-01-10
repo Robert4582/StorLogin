@@ -13,6 +13,7 @@ namespace Login
             queue.CreateExchange(RabbitMQExchangeTypes.Direct, "Stor");
             queue.BindServices("Stor", Services.Login, Services.Create);
             queue.AssignOnRecieve(OnReceive);
+            Console.Read();
         }
         static void OnReceive(BasicDeliverEventArgs args)
         {
@@ -35,14 +36,14 @@ namespace Login
         {
             if (UserDatabase.TryGetUser(file.Info[0], file.Info[1], out User user))
             {
-                queue.RespondToRpc(file, new NetworkFile<string[]>(user.GetAsStrings()));
+                queue.RespondToRpc(file, new NetworkFile<string[]>(user.GetAsStrings()) { Service = Services.Response});
             }
         }
         public static void handleCreateUser(NetworkFile<string[]> file)
         {
             if (UserDatabase.TryCreateUser(file.Info[0], file.Info[1], file.Info[2], out User user))
             {
-                queue.RespondToRpc(file, new NetworkFile<string[]>(user.GetAsStrings()));
+                queue.RespondToRpc(file, new NetworkFile<string[]>(user.GetAsStrings()) { Service = Services.Response });
             }
         }
 
