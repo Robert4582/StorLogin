@@ -10,8 +10,8 @@ namespace Login
         static MessageQueue queue = new MessageQueue();
         static void Main(string[] args)
         {
-            queue.CreateExchange(RabbitMQExchangeTypes.Direct, "Stor");
-            queue.BindServices("Stor", Services.Login, Services.Create);
+            queue.CreateExchange(RabbitMQExchangeTypes.Direct, "stor");
+            queue.BindServices("stor", Services.Login, Services.Create);
             queue.AssignOnRecieve(OnReceive);
 
             Console.Read();
