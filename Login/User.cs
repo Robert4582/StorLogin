@@ -4,15 +4,15 @@ namespace Login
 {
     public class User
     {
-        public Guid ID;
-        public string Username;
-        public string Password;
-        public string Nickname;
+        public Guid ID { get; private set; }
+        public string Username { get; private set; }
+        public string Password { get; private set; }
+        public string Nickname { get; private set; }
 
-        public DateTime CreationDate;
-        public DateTime LastLogin;
+        public DateTime CreationDate { get; private set; }
+        public DateTime LastLogin { get; private set; }
 
-        public int GamesPlayed;
+        public int GamesPlayed { get; private set; }
 
         public User(string userName, string password, string nickName)
         {
